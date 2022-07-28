@@ -13,9 +13,6 @@ function increment() {
 function save() {
     let entires = count + " - "
     saveEl.textContent += entires
-
-}
-
-function backToZero () {
     countEl.textContent = 0
+    count = 0
 }
